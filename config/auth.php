@@ -44,22 +44,22 @@ return [
             'driver' => 'passport',
             'provider' => 'users',
         ],
-        'customer' => [
-            'driver' => 'passport',
-            'provider' => 'customer',
-        ],
-        'merchant' => [
-            'driver' => 'passport',
-            'provider' => 'merchant',
-        ],
-        'api-customer' => [
-            'driver' => 'passport',
-            'provider' => 'customer',
-        ],
-        'api-merchant' => [
-            'driver' => 'passport',
-            'provider' => 'merchant',
-        ],
+        // 'customer' => [
+        //     'driver' => 'passport',
+        //     'provider' => 'customer',
+        // ],
+        // 'merchant' => [
+        //     'driver' => 'passport',
+        //     'provider' => 'merchant',
+        // ],
+        // 'api-customer' => [
+        //     'driver' => 'passport',
+        //     'provider' => 'customer',
+        // ],
+        // 'api-merchant' => [
+        //     'driver' => 'passport',
+        //     'provider' => 'merchant',
+        // ],
 
     ],
 

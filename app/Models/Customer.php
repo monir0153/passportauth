@@ -6,8 +6,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Laravel\Passport\Client as PassportClient;
 
-class Customer extends Authenticatable
+class Customer extends PassportClient
 {
     use HasApiTokens, HasFactory, Notifiable;
 
